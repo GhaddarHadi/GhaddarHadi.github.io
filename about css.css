@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+margin:0;
+pading:0;
+	
+}
+
+.Nav-main {
+	background:rgb(0,0,0,0.75);
+	height:80px;
+	
+}
+
+.menu {	
+	float:right;
+	list-style:none;
+	margin:20px;
+	
+}
+
+.menu li {
+	display: inline-block;
+	margin:10px  5px;	
+	
+}
+
+.menu li a {
+	text-decoration:none;
+	color:#00FFE3;
+	padding:5px 10px;
+	font-family:sans-serif;
+	letter-spacing:2px;
+	border:1px solid #fff
+	
+}
+
+.menu li a:hover {
+	background: #fff;
+	transform:.4s;
+	color: #000;
+		
+	
+}
+
+body {
+	background-color: #fff;	
+	
+}
+
+	
+
+
+.masthead-intro,
+.masthead-heading,
+.content-footer{
+  text-align: center;
+  
+}
+
+
+.masthead {
+  padding:6em 0;
+  background-image:url(https://static.pexels.com/photos/24179/pexels-photo.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  border-top: solid 1em #D0D0D0;
+  background-position:100% 30%;
+}
+
+.masthead-intro {
+    margin-bottom: 1em;
+    font-family: "Orbitron", Georgia, serif;
+    font-size: 2em;
+    
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+    font-family: "Orbitron", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 8px #00FFE3; /*h-s, v-s, blur-radius, color */
+  
+}
+
+
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width:38em; /*defines the width of content*/
+    margin-left:auto; /*centers the content, requires a defined width*/
+    margin-right:auto;/*centers the content, requires a defined width*/
+  margin-top:2em; /*adds more space between elements */
+  font-size:24px;
+}
+ 
+
+
+.content-footer{
+  background-color:#E9E9E9;
+  padding:4em;
+  margin-top:5em;
+}
+
+.content-footer > p {
+    color:black;
+   
+}
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+section > h1 {
+    margin-top: 2em;
+}
+
+
+.pics {
+ 	margin:0px;
+	padding: 0px 0px;
+	width: 50px;
+ 	height: 50px;
+ 	position: absolute;
+ 	top: 395px;
+ 	left: 200px;
+	
+	
+	
+	
+}
+
+.pic {
+	display: inline-block;
+	padding:0px;
+	margin:9px;
+	border: 5px solid white;
+	
+
+}
+
+.pic:hover {
+	background-image: linear-gradient(to bottom, red, yellow)
+}
+
+
+img {
+    transition:transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+}
+
+.picture {
+ 	margin:0px;
+	padding: 0px 0px;
+	width: 50px;
+ 	height: 50px;
+ 	position: absolute;
+ 	top: 395px;
+ 	right: 400px;
+	
+	
+	
+	
+	
+}
+
+.pic {
+	display: inline-block;
+	padding:0px;
+	margin:9px;
+	border: 5px solid white;
+	
+
+}
+
+.pic:hover {
+	background-image: linear-gradient(to bottom, red, yellow)
+}
+
+
+img {
+    transition:transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

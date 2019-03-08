@@ -28,7 +28,7 @@ pading:0;
 
 .menu li a {
 	text-decoration:none;
-	color:#DA88FF;
+	color:#00FFE3;
 	padding:5px 10px;
 	font-family:sans-serif;
 	letter-spacing:2px;
@@ -50,6 +50,7 @@ pading:0;
 	font-family:sans-serif;
 	color:#fff;
 	top: 160px;
+	
 	
 }
 
@@ -73,7 +74,7 @@ pading:0;
 
 .btn1 {
 	font-size:25px;
-	color:#DA88FF;
+	color:#00FFE3;
 	
 }
 
@@ -86,7 +87,7 @@ transform:.4s;
 
 .btn2 {
 	font-size:25px;
-	color:#DA88FF;
+	color:#00FFE3;
 	
 }
 
@@ -107,7 +108,7 @@ canvas {
 	position: absolute;
 	width:100%;
 	height: 100%;
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,100,0.5)),url(images/triangle-background-14347.jpeg);
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,100,0.5)),url(images/bg_hadi.png);
 	background-size:cover;
 	background-position:center;
 		overflow: hidden;
@@ -121,4 +122,16 @@ canvas {
 	display: table;
 }
 
+.social {
+	background: transparent;
+	position: fixed;
+  	left: 2%;
+  	bottom: 2%;
+}
 
+.social-icons {
+	float: bottom left;
+	border-radius: 100%;
+	margin: 0px 0px 0px 20px;
+
+}
